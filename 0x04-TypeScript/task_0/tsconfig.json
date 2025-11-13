@@ -6,7 +6,15 @@
     "module": "es6",
     "target": "es5",
     "allowJs": true,
+    "strict": true,
     "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "webpack.config.js"
+  ]
 }
